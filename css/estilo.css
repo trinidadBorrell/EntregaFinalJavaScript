@@ -1,0 +1,122 @@
+/**-------------------GRAL----------------**/
+
+body {
+    width: 100%;
+    height: 1500px;
+    /**background-image: url(http://cdn.shopify.com/s/files/1/0467/7320/7199/products/Estilo-Veggiecccc-213-2_1200x1200.jpg?v=1619193172);
+    background-image: url(https://149366112.v2.pressablecdn.com/wp-content/uploads/2019/10/sweet-potatao-falafel-veggie-bowl-1.jpg);*/
+    
+    background: rgb(240,240,240);
+    background: linear-gradient(270deg, rgba(240,240,240,0.41220238095238093) 33%, rgba(255,239,2,1) 100%);
+    
+    margin: auto;
+    padding: 0px; }
+
+  
+header {
+    width: 100%;
+    height: auto;
+    padding: 0px; 
+}
+
+.div_ {
+    margin: 5%;
+    padding: 5%;
+}
+
+.indice{
+    filter: initial;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: inherit;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch; }
+    .indice .indice__elemento {
+      flex-basis: 19%;
+      padding: 0px;
+      transition: font-size 0.7s; }
+      .indice .indice__elemento a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .indice .indice__elemento a:hover {
+          color: black; }
+      .indice .indice__elemento:hover {
+        font-size: 30px; }
+      .indice .indice__elemento .indice__subelemento {
+        margin-left: 0px;
+        font-size: 20px;
+        transition: font-size 0.7s; }
+        .indice .indice__elemento .indice__subelemento:hover {
+          font-size: 30px; }
+  
+li {
+    list-style-type: none; }
+
+#borde{
+    background-color: rgba(255, 255, 255, 0.578);
+    height: 20%;
+    width: 100%;
+    padding-right: 50%;
+    padding-left: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.578);
+    color: black;
+    margin: 0;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 15px;
+    font-variant: small-caps;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0; }
+    .footer .footer__elemento {
+      font-size: 10px; }
+
+/**----------------------------CONTACTO---------------------------**/
+
+
+
+/**----------------------------DELIVERY---------------------------**/
+
+.shopping-cart{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.782);
+}
+
+.item{
+    background-color: rgba(255, 255, 255, 0.782);
+}
+
+/**-------------------------COMBOS----------------------------------**/
+
+#combos_completar1{
+    background-color: rgba(255, 255, 255, 0.578);
+    margin: 5%;
+    padding: 2%;
+}
+
+#combos_completar2{
+    background-color: rgba(255, 255, 255, 0.578);
+    margin: 5%;
+    padding: 2%;
+}
+
+.table{
+    background-color: white;
+    padding: 5%;
+}
